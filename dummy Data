@@ -1,0 +1,51 @@
+Input for User register={
+  {
+      "name": "RMAS Mukit",
+  "age": 27,
+  "mobile": "9876543212",
+  "address": "123, ABC Street, XYZ City",
+  "NID": 123456789013,
+  "password": "password123",
+  "role": "user"
+  },
+  {
+   "name": "Shane Watson",
+  "age": 31,
+  "mobile": "9876543209",
+  "address": "Dhaka JU",
+  "NID": 123456789015,
+  "password": "password",
+  "role": "admin"
+  }
+}
+Input for User first time login={
+  {
+   "NID": 123456789015,
+  "password": "password"
+
+  }
+
+},will get a token after that.Use it for other work.
+
+Input for Stripe Payment Integration=
+{
+  {
+     "amount":157
+  }
+}
+The output will look like this 
+  {
+  "_id": {
+    "$oid": "680129fe937b3bda9d0c4777"
+  },
+  "amount": 157,
+  "status": "pending",
+  "paymentIntentId": "pi_3REv9fQDnY8JsqyA1qnct2kE",
+  "createdAt": {
+    "$date": "2025-04-17T16:19:10.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T16:19:10.836Z"
+  },
+  "__v": 0
+}
